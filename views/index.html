@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>minilink</title>
+    <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/18131787?s=460&v=4" type="image/x-icon"/>
+    <link href="/public/style.css" rel="stylesheet" type="text/css">
+    <script src="/public/script.js" defer></script>
+  </head>
+  <body>
+    <h1>URL Shortener Microservice</h1>
+    <p><b>Example: </b>
+      <a href="https://minilink.glitch.me/new/https://www.google.com" target="_blank">
+        https://minilink.glitch.me/new/https://www.google.com
+      </a>
+    </p>
+    <p><b>The returned JSON contains a shortened URL: </b>
+      <a href="https://minilink.glitch.me/hswxZ" target="_blank" title="Redirects to https://www.google.com">
+        https://minilink.glitch.me/hswxZ
+      </a>
+    </p>
+    <p>
+      <input id="url" onkeyup="checkInput()">
+    </p>
+    <p>
+      <button id="shorten-url" style="visibility:hidden" onclick="shortenURL()">Shorten URL</button>
+    </p>
+  </body>
+</html>

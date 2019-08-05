@@ -1,0 +1,14 @@
+{
+  "name": "minilink",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "4.13.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  }
+}
