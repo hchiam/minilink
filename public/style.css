@@ -1,0 +1,19 @@
+body {
+	font-family: avenir, arial, monospace;
+  color: brown;
+	background: #5ed4ff;
+	text-align: center;
+}
+
+input,
+button {
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+
+input:hover,
+input:focus,
+button:hover {
+  background: gold;
+}
