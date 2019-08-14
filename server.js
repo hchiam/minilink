@@ -85,7 +85,7 @@ function setUpShorteningGetRequest() {
                 // actually create the new record
                 var newMongoDbRecord = new shortenedUrlModel({ fullUrl: urlToShorten, shortenedUrl: randomString });
                 console.log('New document created' + newMongoDbRecord);
-                res.send(urlToShorten + '<br/> -> Here\'s your shortened URL: <a href="' + rootUrl + randomString + '">' + rootUrl + randomString + '</a><input id="url-to-copy" type="text" value="' + rootUrl + alreadyExists.shortenedUrl + '" style="position: absolute; left: -1000px;"> <button onclick="document.getElementById(\'url-to-copy\').select();document.execCommand(\'copy\');">Copy to clipboard</button>');  
+                res.send(urlToShorten + '<br/> -> Here\'s your shortened URL: <a href="' + rootUrl + randomString + '">' + rootUrl + randomString + '</a><input id="url-to-copy" type="text" value="' + rootUrl + randomString + '" style="position: absolute; left: -1000px;"> <button onclick="document.getElementById(\'url-to-copy\').select();document.execCommand(\'copy\');">Copy to clipboard</button>');  
                 newMongoDbRecord.save(function (err) {
                     if (err) {
                         return err;
