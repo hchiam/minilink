@@ -1,5 +1,7 @@
 # minilink - URL Shortener Microservice Test
 
+[![HitCount](http://hits.dwyl.com/hchiam/minilink.svg)](http://hits.dwyl.com/hchiam/minilink)
+
 Demo: [https://minilink.glitch.me](https://minilink.glitch.me)
 
 Code: [https://glitch.com/edit/#!/minilink](https://glitch.com/edit/#!/minilink)
