@@ -2,7 +2,7 @@
   "name": "minilink",
   "dependencies": {
     "express": "^4.16.2",
-    "mongoose": "4.13.0",
+    "mongoose": "5.7.5",
     "lodash": ">=4.17.13",
     "mpath": ">=0.5.1"
   },
