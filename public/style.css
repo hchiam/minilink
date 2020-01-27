@@ -1,21 +1,47 @@
-body {
-	font-family: avenir, arial, monospace;
-  color: brown;
-	background: #5ed4ff;
-	text-align: center;
+* {
+  background: rgb(32,32,32);
+  color: whitesmoke;
+  font-family: avenir, arial, helvetica, sans-serif;
+  border-radius: 10px;
+  transition: 0.25s;
 }
 
-input,
+body {
+  text-align: center;
+}
+
 button {
-  border-radius: 5px;
-  padding: 5px;
+  background: whitesmoke;
+  color: black;
+  padding: 10px;
   border: none;
 }
 
-input:hover,
-input:focus,
-button:hover {
-  background: gold;
+button:hover, button:focus {
+  background: lime;
+  color: black;
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover, a:focus {
+  color: lime;
+}
+
+a:focus, button:focus {
+  text-decoration: underline;
+}
+
+input {
+  background: whitesmoke;
+}
+
+input {
+  color: black;
+  padding: 10px;
+  border: none;
 }
 
 footer {

@@ -5,10 +5,12 @@ function checkInput() {
   let startsWithHttp = url.startsWith('http://');
   let startsWithHttps = url.startsWith('https://');
   let startsWithwww = url.startsWith('www.');
+  let containsTwoDots = (url.match(/\./g) || []).length === 2;
+  let doesNotEndWithDot = url[url.length - 1] !== '.';
   if (url == '') {
     canProceed = false;
     document.getElementById('url').style.background = 'gold';
-  } else if (startsWithHttp || startsWithHttps || startsWithwww) {
+  } else if ((startsWithHttp || startsWithHttps || startsWithwww) && containsTwoDots && doesNotEndWithDot) {
     canProceed = true;
     document.getElementById('url').style.background = 'lime';
   } else {
