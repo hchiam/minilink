@@ -25,7 +25,7 @@ function checkInput() {
   }
 }
 
-function shortenUrl() {
+function shortenURL() {
   if (canProceed) { // this is more of a usability measure (make sure to implement check in backend too)
     let url = document.getElementById('url').value;
     window.location.href = 'https://minilink.glitch.me/new/' + url;
@@ -34,6 +34,6 @@ function shortenUrl() {
 
 document.getElementById('url').addEventListener('keypress', function(e) {
   if (e.keyCode == 13) {
-    shortenUrl();
+    shortenURL();
   }
 });
