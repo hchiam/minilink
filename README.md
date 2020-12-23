@@ -6,7 +6,7 @@ Demo: [https://minilink.glitch.me](https://minilink.glitch.me)
 
 Code: [https://glitch.com/edit/#!/minilink](https://glitch.com/edit/#!/minilink)
 
-Note to self: See newer private version.
+Note to self: This is different from the newer private version.
 
 To make your own copy, you'll need a .env file with these:
 
