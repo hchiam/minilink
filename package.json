@@ -2,8 +2,8 @@
   "name": "minilink",
   "dependencies": {
     "express": "^4.17.1",
+    "lodash": "^4.17.21",
     "mongoose": "^5.11.8",
-    "lodash": ">=4.17.19",
     "mpath": ">=0.5.1"
   },
   "main": "server.js",
